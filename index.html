@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="flex justify-center container mx-auto h-screen items-center ">
+
+		<div class="formulario bg-gray-100 ">
+
+			<header class="text-center bg-red-500 text-white p-2 text-xl font-bold">Enviar Formulario</header>
+			<div class="form-cont">
+				<form id="form" action="">
+
+					<div class="mb-8">
+						<label for="nombre" class="text-lg">Nombre:</label><br>
+						<input class="bg-gray-100 border shadow p-1 pr-20" type="text" id="nombre" autocomplete="email">
+					</div>
+
+					<div class="mb-8">
+						<label for="correo" class="text-lg">Email:</label><br>
+						<input class="bg-gray-100 border shadow p-1 pr-20" type="email" id="correo"
+							autocomplete="email">
+					</div>
+
+					<div class="mb-8">
+						<label for="pass" class=" text-lg">Contraseña:</label><br>
+						<input class="bg-gray-100 border shadow p-1 pr-20" type="password" id="pass"
+							autocomplete="password">
+					</div>
+
+
+					<div class="padre-enviar text-center">
+						<input class="border bg-blue-500 text-white p-2 px-3 text-xl w-24" type="submit" class="btn-enviar"
+							id="btn"></input>
+
+					</div>
+
+
+
+
+
+				</form>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="main.js"></script>
+</body>
+
+</html>
