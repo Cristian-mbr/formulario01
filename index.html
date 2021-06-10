@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
 	<meta charset="UTF-8">
@@ -12,7 +12,7 @@
 <body>
 	<div class="flex justify-center container mx-auto h-screen items-center ">
 
-		<div class="formulario bg-gray-100 ">
+		<div class="formulario bg-gray-100">
 
 			<header class="text-center bg-red-500 text-white p-2 text-xl font-bold">Enviar Formulario</header>
 			<div class="form-cont">
@@ -20,7 +20,7 @@
 
 					<div class="mb-8">
 						<label for="nombre" class="text-lg">Nombre:</label><br>
-						<input class="bg-gray-100 border shadow p-1 pr-20" type="text" id="nombre" autocomplete="email" placeholder="puto el que lee">
+						<input class="bg-gray-100 border shadow p-1 pr-20" type="text" id="nombre" autocomplete="email">
 					</div>
 
 					<div class="mb-8">
@@ -34,11 +34,21 @@
 						<input class="bg-gray-100 border shadow p-1 pr-20" type="password" id="pass"
 							autocomplete="password">
 					</div>
+					<div id="spinner-2">
+						<div class="spinner">
 
+							<div class="rect1"></div>
+							<div class="rect2"></div>
+							<div class="rect3"></div>
+							<div class="rect4"></div>
+							<div class="rect5"></div>
+
+						</div>
+					</div>
 
 					<div class="padre-enviar text-center">
-						<input class="border bg-blue-500 text-white p-2 px-3 text-xl w-24" type="submit" class="btn-enviar"
-							id="btn"></input>
+						<input class="border bg-blue-500 text-white p-2 px-3 text-xl w-24" type="submit"
+							class="btn-enviar" id="btn"></input>
 
 					</div>
 
